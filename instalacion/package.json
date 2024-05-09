@@ -1,0 +1,12 @@
+{
+  "name": "instalacion",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "tailDev": "npx tailwindcss -i ./src/css/tailwind.css -o ./src/css/estilos.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.3"
+  }
+}
