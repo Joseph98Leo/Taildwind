@@ -23,10 +23,13 @@
 
         </nav> -->
 
-        <figure class="w-64 h-96 relative top-40 left-20">
-            <p class="absolute inset-0 text-white bg-red-600/50 flex items-center justify-center font-bold text-3xl z-10">Soy un texto</p>
-            <img src="assets/product_1.jpg" class="w-full h-full object-cover relative scale-50 origin-left" id="img">
-        </figure>
+        <!-- <section class="group p-8 bg-red-400 group/section">
+            <figure class="w-64 h-96 relative top-40 left-20 group overflow-hidden group/figure">
+                <p class="absolute inset-0 text-white bg-red-600/50 flex items-center justify-center font-bold text-3xl z-10 group-hover/figure:translate-y-full group-hover/section:bg-blue-600/50 transition">Soy un texto</p>
+                <img src="assets/product_1.jpg" class="w-full h-full object-cover relative" id="img">
+            </figure>
+        </section> -->
+
 
         <!-- <h2 class="text-3xl font-bold text-center my-12">
             Galeria de imagenes
@@ -53,6 +56,26 @@
             >
         </form> -->
 
+
+        <section class="space-y-4 mt-10 mx-auto w-max">
+            <button
+                class="bg-red-400 text-white w-max p-4 peer/abajo"
+            >
+                Desplaza hacia abajo
+            </button>
+
+            <button
+                class="bg-red-400 text-white w-max p-4 peer/derecha"
+            >
+                Desplaza hacia la derecha
+            </button>
+            
+            <img
+                src="assets/product_1.jpg"
+                class="w-32 h-32 peer-hover/abajo:translate-y-full peer-hover/derecha:translate-x-full transition-[margin,transform] duration-[2s]"
+                alt=""
+            >
+        </section>
 
     </body>
 </html>
