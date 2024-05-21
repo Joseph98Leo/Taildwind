@@ -1,0 +1,12 @@
+{
+  "name": "layouts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "tailDev": "npx tailwindcss -i ./src/css/tailwind.css -o ./src/css/estilos.css --watch"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "tailwindcss": "^3.4.3"
+  }
+}
